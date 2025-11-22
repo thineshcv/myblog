@@ -124,6 +124,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
           {post.image && (
             <div className="mb-8 sm:mb-12">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={post.image}
                 alt={post.title}

@@ -27,7 +27,7 @@ export default function AboutPage() {
             className="text-base sm:text-lg mb-4 sm:mb-6 transition-colors"
             style={{ color: 'var(--text-primary)' }}
           >
-            Welcome to my personal blog! I'm passionate about technology, writing, and sharing knowledge.
+            Welcome to my personal blog! I&apos;m passionate about technology, writing, and sharing knowledge.
           </p>
           <p 
             className="text-sm sm:text-base mb-4 transition-colors"
@@ -35,7 +35,7 @@ export default function AboutPage() {
           >
             This blog is a space where I share my thoughts, experiences, and insights on various topics
             that interest me. From web development and programming to life lessons and personal growth,
-            you'll find a mix of technical and personal content here.
+            you&apos;ll find a mix of technical and personal content here.
           </p>
           <p 
             className="text-sm sm:text-base mb-4 transition-colors"
@@ -54,7 +54,7 @@ export default function AboutPage() {
             className="text-sm sm:text-base mb-4 transition-colors"
             style={{ color: 'var(--text-primary)' }}
           >
-            I'd love to hear from you! Feel free to reach out through social media or email.
+            I&apos;d love to hear from you! Feel free to reach out through social media or email.
           </p>
         </div>
       </div>

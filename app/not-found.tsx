@@ -23,7 +23,7 @@ export default function NotFound() {
           className="text-sm sm:text-base mb-8 transition-colors"
           style={{ color: 'var(--text-secondary)' }}
         >
-          The page you're looking for doesn't exist or has been moved.
+          The page you&apos;re looking for doesn&apos;t exist or has been moved.
         </p>
         <Link
           href="/"
