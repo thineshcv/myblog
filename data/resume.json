@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Your Name",
+    "label": "Software Developer",
+    "email": "your.email@example.com",
+    "phone": "(555) 123-4567",
+    "url": "https://yourwebsite.com",
+    "summary": "Passionate software developer with expertise in web development, modern frameworks, and clean code practices. Always learning and sharing knowledge with the community.",
+    "location": {
+      "city": "Your City",
+      "countryCode": "US",
+      "region": "Your State"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "yourusername",
+        "url": "https://github.com/yourusername"
+      },
+      {
+        "network": "Twitter",
+        "username": "yourusername",
+        "url": "https://twitter.com/yourusername"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "yourusername",
+        "url": "https://linkedin.com/in/yourusername"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Company Name",
+      "position": "Senior Software Developer",
+      "url": "https://company.com",
+      "startDate": "2020-01",
+      "endDate": null,
+      "summary": "Leading development of modern web applications using React, Next.js, and TypeScript.",
+      "highlights": [
+        "Architected and implemented scalable frontend solutions",
+        "Mentored junior developers and conducted code reviews",
+        "Improved application performance by 40%"
+      ]
+    },
+    {
+      "name": "Previous Company",
+      "position": "Software Developer",
+      "url": "https://previous-company.com",
+      "startDate": "2018-06",
+      "endDate": "2019-12",
+      "summary": "Developed and maintained web applications using modern JavaScript frameworks.",
+      "highlights": [
+        "Built responsive user interfaces",
+        "Collaborated with cross-functional teams",
+        "Implemented automated testing strategies"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "url": "https://university.edu",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2014-09",
+      "endDate": "2018-05",
+      "score": "3.8 GPA"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["JavaScript", "TypeScript", "Python", "Go", "Rust"]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "keywords": ["React", "Next.js", "Node.js", "Express", "Vue.js"]
+    },
+    {
+      "name": "Tools & Technologies",
+      "keywords": ["Git", "Docker", "AWS", "PostgreSQL", "MongoDB", "Redis"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Source Project",
+      "description": "A popular open source library for web development",
+      "url": "https://github.com/yourusername/project",
+      "keywords": ["React", "TypeScript", "Open Source"]
+    },
+    {
+      "name": "Personal Blog",
+      "description": "SEO-optimized personal blog built with Next.js",
+      "url": "https://yourblog.com",
+      "keywords": ["Next.js", "React", "SEO"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Project Award",
+      "date": "2022-12",
+      "awarder": "Tech Conference",
+      "summary": "Awarded for outstanding contribution to open source"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Developer",
+      "date": "2021-06",
+      "issuer": "Amazon Web Services",
+      "url": "https://aws.amazon.com/certification/"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "keywords": ["Contributing", "Maintaining Projects"]
+    },
+    {
+      "name": "Reading",
+      "keywords": ["Technical Books", "Science Fiction"]
+    },
+    {
+      "name": "Photography",
+      "keywords": ["Landscape", "Street Photography"]
+    }
+  ]
+}
+
