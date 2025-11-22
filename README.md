@@ -96,20 +96,44 @@ The site uses Tailwind CSS. Customize colors and styles in:
 
 ## Deployment
 
-### Vercel (Recommended)
+### GitHub Pages (Automated CI/CD)
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+1. **Enable GitHub Pages:**
+   - Go to your repository settings on GitHub
+   - Navigate to "Pages" in the left sidebar
+   - Under "Source", select "GitHub Actions"
+
+2. **Set Environment Variable (Optional):**
+   - Go to repository Settings → Secrets and variables → Actions
+   - Add a secret named `NEXT_PUBLIC_SITE_URL` with your GitHub Pages URL
+   - Example: `https://thineshcv.github.io/myblog` or your custom domain
+
+3. **Deploy:**
+   - Push to the `main` branch
+   - GitHub Actions will automatically build and deploy your site
+   - The workflow is located at `.github/workflows/deploy.yml`
+
+4. **Access your site:**
+   - Your site will be available at `https://<username>.github.io/<repository-name>`
+   - Or your custom domain if configured
+
+### Vercel (Alternative)
 
 1. Push your code to GitHub
 2. Import your repository in Vercel
 3. Vercel will automatically detect Next.js and deploy
 
-### Other Platforms
+### Local Build
 
 Build the production version:
 
 ```bash
 npm run build
-npm start
 ```
+
+The static files will be in the `out/` directory.
 
 ## Project Structure
 
