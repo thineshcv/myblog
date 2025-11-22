@@ -31,10 +31,24 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Set NEXT_PUBLIC_* defaults
         env:
-          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL || 'https://thineshcv.github.io/myblog' }}
+          SECRET_BASE: ${{ secrets.NEXT_PUBLIC_BASE_PATH }}
+          SECRET_SITE: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+        run: |
+          if [[ -n "$SECRET_BASE" ]]; then
+            echo "NEXT_PUBLIC_BASE_PATH=$SECRET_BASE" >> $GITHUB_ENV
+          else
+            echo "NEXT_PUBLIC_BASE_PATH=/myblog" >> $GITHUB_ENV
+          fi
+          if [[ -n "$SECRET_SITE" ]]; then
+            echo "NEXT_PUBLIC_SITE_URL=$SECRET_SITE" >> $GITHUB_ENV
+          else
+            echo "NEXT_PUBLIC_SITE_URL=https://thineshcv.github.io/myblog" >> $GITHUB_ENV
+          fi
+
+      - name: Build & Export (for GitHub Pages)
+        run: npm run export
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
