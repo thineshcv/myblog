@@ -17,7 +17,7 @@ export default function Home() {
             className="text-3xl sm:text-4xl md:text-5xl font-light mb-4 sm:mb-6 transition-colors"
             style={{ color: 'var(--text-primary)' }}
           >
-            Blog
+            TECH
           </h1>
           <p 
             className="text-base sm:text-lg max-w-2xl transition-colors"

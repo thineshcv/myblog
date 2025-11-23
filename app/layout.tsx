@@ -9,16 +9,16 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
-    default: 'Personal Blog - Thoughts, Ideas, and Stories',
-    template: '%s | Personal Blog'
+    default: 'Thinesh - Tech Blog' ,
+    template: '%s | My tech blog'
   },
   description: 'A personal blog sharing thoughts, ideas, and stories about technology, life, and everything in between.',
-  keywords: ['blog', 'personal blog', 'technology', 'web development', 'programming'],
-  authors: [{ name: 'Your Name' }],
-  creator: 'Your Name',
-  publisher: 'Your Name',
+  keywords: ['blog', 'DevOPs', 'technology', 'web development', 'programming', "python", "Deep Learning", "Machine Learning", "AI", "Cloud Computing", "pytorch", "kubernetes", "docker", "aws", ],
+  authors: [{ name: 'Thinesh C V' }],
+  creator: 'Thinesh C V',
+  publisher: 'Thinesh C V',
   formatDetection: {
-    email: false,
+    email: true,
     address: false,
     telephone: false,
   },
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: '/',
-    siteName: 'Personal Blog',
-    title: 'Personal Blog - Thoughts, Ideas, and Stories',
+    siteName: 'Thinesh- Tech Blog',
+    title: 'Thoughts, Ideas, and Stories',
     description: 'A personal blog sharing thoughts, ideas, and stories about technology, life, and everything in between.',
     images: [
       {

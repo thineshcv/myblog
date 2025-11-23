@@ -16,7 +16,7 @@ export default function Header() {
             href="/" 
             className="text-lg sm:text-xl font-light link-primary"
           >
-            Blog
+            Thinesh C V
           </Link>
           <div className="flex items-center gap-4 sm:gap-6">
             <div className="flex gap-4 sm:gap-6 text-sm sm:text-base">

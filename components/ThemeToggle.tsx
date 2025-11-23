@@ -25,7 +25,7 @@ export default function ThemeToggle() {
   if (!mounted) {
     return (
       <button
-        className="w-8 h-8 flex items-center justify-center transition-colors"
+        className="w-10 h-10 flex items-center justify-center transition-colors"
         style={{ color: 'var(--text-secondary)' }}
         aria-label="Toggle theme"
       >
@@ -37,7 +37,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="w-8 h-8 flex items-center justify-center link-secondary"
+      className="w-10 h-10 flex items-center justify-center link-secondary"
       aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
       title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
     >
