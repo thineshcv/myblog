@@ -27,11 +27,20 @@
     "@types/react-dom": "^18.2.0",
     "typescript": "^5.3.0",
     "husky": "^8.0.0",
+    "lint-staged": "^14.0.0",
     "tailwindcss": "^3.4.1",
     "postcss": "^8.4.35",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.2.0"
+  }
+
+  ,
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,mdx}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
 

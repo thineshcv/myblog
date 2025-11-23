@@ -1,5 +1,12 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Run lint and typecheck before allowing commit
-npm run check
+# Run lint-staged (fix staged files) and then run typecheck
+npx lint-staged --allow-empty
+if [ $? -ne 0 ]; then
+	echo "lint-staged failed"
+	exit 1
+fi
+
+# Run full typecheck to catch type errors
+npm run typecheck
