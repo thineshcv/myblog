@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
+import remarkGfm from 'remark-gfm'
 
 const postsDirectory = path.join(process.cwd(), 'content/posts')
 
@@ -37,7 +38,7 @@ export function getBlogPosts(): BlogPost[] {
       const fileContents = fs.readFileSync(fullPath, 'utf8')
       const { data, content } = matter(fileContents)
 
-      const processedContent = remark().use(html).processSync(content).toString()
+      const processedContent = remark().use(remarkGfm).use(html).processSync(content).toString()
 
       return {
         slug,
@@ -70,7 +71,7 @@ export function getBlogPost(slug: string): BlogPost | null {
     const fileContents = fs.readFileSync(fullPath, 'utf8')
     const { data, content } = matter(fileContents)
 
-    const processedContent = remark().use(html).processSync(content).toString()
+    const processedContent = remark().use(remarkGfm).use(html).processSync(content).toString()
 
     return {
       slug,
@@ -86,4 +87,3 @@ export function getBlogPost(slug: string): BlogPost | null {
     return null
   }
 }
-
