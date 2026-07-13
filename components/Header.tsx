@@ -32,18 +32,6 @@ export default function Header() {
               >
                 Posts
               </Link>
-              <Link
-                href="/cv"
-                className="font-light link-secondary"
-              >
-                CV
-              </Link>
-              <Link
-                href="/about"
-                className="font-light link-secondary"
-              >
-                About
-              </Link>
             </div>
             <ThemeToggle />
           </div>
@@ -52,4 +40,3 @@ export default function Header() {
     </header>
   )
 }
-

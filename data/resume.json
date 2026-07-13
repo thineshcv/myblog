@@ -1,90 +1,115 @@
 {
   "basics": {
-    "name": "Your Name",
-    "label": "Software Developer",
-    "email": "your.email@example.com",
-    "phone": "(555) 123-4567",
-    "url": "https://yourwebsite.com",
-    "summary": "Passionate software developer with expertise in web development, modern frameworks, and clean code practices. Always learning and sharing knowledge with the community.",
+    "name": "Thinesh C V",
+    "label": "DevOps Engineer",
+    "email": "cvthinesh@gmail.com",
+    "url": "https://thineshcv.github.io/myblog/",
+    "summary": "DevOps Engineer with expertise in Kubernetes, AWS, and CI/CD pipeline automation. Builds scalable cloud-native infrastructure and event-driven architectures. Proficient in Python and FastAPI for building internal tooling and microservices. Passionate about observability, platform engineering, and data pipeline orchestration.",
     "location": {
-      "city": "Your City",
-      "countryCode": "US",
-      "region": "Your State"
+      "city": "Chennai",
+      "countryCode": "IN",
+      "region": "Tamil Nadu"
     },
     "profiles": [
       {
         "network": "GitHub",
-        "username": "yourusername",
-        "url": "https://github.com/yourusername"
+        "username": "thineshcv",
+        "url": "https://github.com/thineshcv"
       },
       {
         "network": "Twitter",
-        "username": "yourusername",
-        "url": "https://twitter.com/yourusername"
+        "username": "thineshcv",
+        "url": "https://x.com/thineshcv"
       },
       {
         "network": "LinkedIn",
-        "username": "yourusername",
-        "url": "https://linkedin.com/in/yourusername"
+        "username": "thineshcv",
+        "url": "https://www.linkedin.com/in/thineshcv/"
       }
     ]
   },
   "work": [
     {
-      "name": "Company Name",
-      "position": "Senior Software Developer",
-      "url": "https://company.com",
-      "startDate": "2020-01",
-      "endDate": null,
-      "summary": "Leading development of modern web applications using React, Next.js, and TypeScript.",
-      "highlights": [
-        "Architected and implemented scalable frontend solutions",
-        "Mentored junior developers and conducted code reviews",
-        "Improved application performance by 40%"
-      ]
+      "name": "EMIS Health",
+            "position": "Software Consultant",
+            "url": "https://www.emishealth.com/",
+            "startDate": "2023-07",
+            "endDate": null,
+            "summary": "Managing cloud-native infrastructure on AWS and Kubernetes, building CI/CD pipelines, and developing internal microservices with Python and FastAPI.",
+            "highlights": [
+              "Developed modern FAST API based services for out web applications",
+              "Designed and maintained Kubernetes clusters with Helm, Istio service mesh, and KEDA autoscaling",
+              "Built CI/CD pipelines using GitHub Actions, AWS ECR, and ArgoCD for GitOps deployments",
+              "Developed internal APIs and automation tooling with Python and FastAPI",
+              "Implemented observability stack with Prometheus, Grafana, and ELK for anomaly detection",
+              "Architected event-driven microservices using RabbitMQ, SQS, and SNS",
+              "Integrated HashiCorp Vault for secrets management across services"
+            ]
     },
     {
-      "name": "Previous Company",
-      "position": "Software Developer",
-      "url": "https://previous-company.com",
-      "startDate": "2018-06",
-      "endDate": "2019-12",
-      "summary": "Developed and maintained web applications using modern JavaScript frameworks.",
-      "highlights": [
-        "Built responsive user interfaces",
-        "Collaborated with cross-functional teams",
-        "Implemented automated testing strategies"
-      ]
+      "name": "Latentview Analytics",
+            "position": "DevOps Analyst",
+            "url": "https://www.latentview.com/",
+            "startDate": "2021-11",
+            "endDate": "2023-06",
+            "summary": "Built and maintained CI/CD pipelines, containerized deployments, and data infrastructure to support analytics at scale.",
+            "highlights": [
+              "Automated deployment workflows with Docker, GitHub Actions, and AWS ECS Fargate",
+              "Developed data pipelines using Python, Apache Airflow, and PySpark",
+              "Built internal tools and APIs with Python and FastAPI",
+              "Implemented monitoring and alerting with Prometheus and Grafana",
+              "Managed AWS infrastructure including VPC, S3, and event-driven architectures"
+            ]
     }
   ],
   "education": [
     {
-      "institution": "University Name",
-      "url": "https://university.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2014-09",
-      "endDate": "2018-05",
-      "score": "3.8 GPA"
+      "institution": "PSNA College of Engineering and Technology",
+      "url": "https://psnacet.edu.in/",
+      "area": "Electronics and Communication Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2012-06",
+      "endDate": "2016-05",
+      "score": "7.5 GPA"
     }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["JavaScript", "TypeScript", "Python", "Go", "Rust"]
+      "keywords": [ "Python", "Go", "Rust", "Bash Scripting", "TypeScript"]
     },
     {
-      "name": "Frameworks & Libraries",
-      "keywords": ["React", "Next.js", "Node.js", "Express", "Vue.js"]
+      "name": "Web Frameworks",
+      "keywords": ["FAST API", "Go gin"]
+    },
+    {
+      "name": "Kubernetes",
+      "keywords": ["Helm", "KEDA", "Istio", "ArgoCD", "RabbitMQ", "Vault"]
+    },
+    {
+      "name": "AWS",
+      "keywords": ["ECS Fargate", "S3","Arora", "VPC", "Event Driven", "SQS", "SNS"] 
+    },
+    {
+      "name": "DevOps",
+      "keywords": ["CI-CD Github actions", "security","AWS ECR", "Prometheus and Grafana", "ELK", "Anamoly detection" ]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": ["Iceberg", "Apache Airflow", "Apache Kafka","Data Lakehouse Architecure", "Data Catalogue", "Databricks", "PySpark"]
+    },
+    {
+      "name": "AI",
+      "keywords": ["PyTorch", "Deep learning Algorithms" , "RAG", "Agentic AI", "MCP", "MultiModal"]
     },
     {
       "name": "Tools & Technologies",
-      "keywords": ["Git", "Docker", "AWS", "PostgreSQL", "MongoDB", "Redis"]
+      "keywords": [ "Azure" ,"Jwt", "Oauth","Git", "Docker", "JFrog", "MySQL", "Redis"]
     }
   ],
   "projects": [
     {
-      "name": "Open Source Project",
+      "name": "",
       "description": "A popular open source library for web development",
       "url": "https://github.com/yourusername/project",
       "keywords": ["React", "TypeScript", "Open Source"]
@@ -98,10 +123,10 @@
   ],
   "awards": [
     {
-      "title": "Best Project Award",
-      "date": "2022-12",
-      "awarder": "Tech Conference",
-      "summary": "Awarded for outstanding contribution to open source"
+      "title": "Best Contributor Award",
+      "date": "2023-02",
+      "awarder": "Latentview Analytics",
+      "summary": "Awarded for outstanding contribution to the project"
     }
   ],
   "certificates": [
@@ -115,25 +140,17 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Native"
+      "fluency": "Expert"
     },
     {
-      "language": "Spanish",
-      "fluency": "Conversational"
+      "language": "Tamil",
+      "fluency": "Native"
     }
   ],
   "interests": [
     {
       "name": "Open Source",
-      "keywords": ["Contributing", "Maintaining Projects"]
-    },
-    {
-      "name": "Reading",
-      "keywords": ["Technical Books", "Science Fiction"]
-    },
-    {
-      "name": "Photography",
-      "keywords": ["Landscape", "Street Photography"]
+      "keywords": ["Contributing"]
     }
   ]
 }

@@ -21,21 +21,6 @@ export default function BlogPage() {
       style={{ backgroundColor: 'var(--bg-primary)' }}
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-        <div className="mb-8 sm:mb-12">
-          <h1 
-            className="text-3xl sm:text-4xl md:text-5xl font-light mb-3 sm:mb-4 transition-colors"
-            style={{ color: 'var(--text-primary)' }}
-          >
-            All Posts
-          </h1>
-          <p 
-            className="text-base sm:text-lg transition-colors"
-            style={{ color: 'var(--text-secondary)' }}
-          >
-            {posts.length} {posts.length === 1 ? 'post' : 'posts'}
-          </p>
-        </div>
-
         <div className="space-y-6 sm:space-y-8">
           {posts.map((post) => (
             <article 
